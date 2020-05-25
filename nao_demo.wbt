@@ -1,0 +1,106 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  info [
+    "Aldebaran's Nao H25 V5.0"
+    "NAO is a programmable, 57-cm tall humanoid robot."
+    "The body has 25 degrees of freedom (DOF)."
+    "The sensors include 2 cameras, 4 microphones, sonar rangefinder, 2 IR emitters and receivers, 1 inertial board, and 8 pressure sensors."
+  ]
+  title "Aldebaran's Nao"
+  basicTimeStep 20
+  FPS 20
+  contactProperties [
+    ContactProperties {
+      material1 "NAO foot material"
+      coulombFriction [
+        7
+      ]
+      bounce 0.3
+      bounceVelocity 0.003
+    }
+  ]
+}
+Viewpoint {
+  orientation -0.23226100856508938 0.9658260356167674 0.11504300424244096 0.836541
+  position 1.2652287917563088 0.6489266242150475 1.1543447781274248
+  follow "NAO"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 25 25
+  tileSize 0.8 0.8
+}
+Nao {
+  hidden position_0_0 -6.895525817007802e-16
+  hidden position2_0_0 -1.4537084418099225e-08
+  hidden position_0_1 2.0913355986324544e-07
+  hidden position2_0_1 -1.406159712430571e-10
+  hidden position_0_2 1.0323450583524438e-07
+  hidden position2_0_2 1.4062821785343373e-10
+  hidden position_0_3 -3.789981566438189e-09
+  hidden position_0_4 -3.744551951323029e-09
+  hidden rotation_18 1.6603366887904362e-08 0.9999999999999997 1.9545260344242846e-08 1.400000313702121
+  hidden position_18_0 8.773714773985002e-11
+  hidden position_19_0 6.366346988280194e-10
+  hidden rotation_20 0 0 1 5.16191365590357e-08
+  hidden position_20_0 3.0389784152844164e-10
+  hidden position_21_0 2.99253954950943e-10
+  hidden position_21_1 2.9926461309251483e-10
+  hidden position_21_2 5.7363447327852314e-11
+  hidden rotation_22 0 1 0 0.9599999995511205
+  hidden position_22_0 1.4359913258995937e-10
+  hidden rotation_23 0 1 0 0.9599999997846028
+  hidden position_23_0 1.6325385493185976e-11
+  hidden rotation_24 0 1 0 0.959999999975515
+  hidden rotation_25 0 1 0 0.9599999995511079
+  hidden position_25_0 1.4360268530623862e-10
+  hidden rotation_26 0 1 0 0.9599999997845966
+  hidden position_26_0 1.6328272084374957e-11
+  hidden rotation_27 0 1 0 0.9599999999755092
+  hidden position_28_0 3.5121128238274696e-11
+  hidden rotation_29 0 -1 0 0.9599999999473168
+  hidden rotation_30 -1.6806490243959394e-08 0.9999999999999997 -1.7926016058503675e-08 1.4979701548527045
+  hidden position_30_0 -3.5495888185946e-11
+  hidden position_31_0 -7.458542200954583e-10
+  hidden position_32_0 1.4231543077214797e-10
+  hidden position_33_0 3.0734237377402194e-10
+  hidden position_33_1 3.0733782185894667e-10
+  hidden position_33_2 4.3021308739684074e-11
+  hidden rotation_34 0 1 0 0.9599999995389848
+  hidden position_34_0 1.3724255065932692e-10
+  hidden rotation_35 0 1 0 0.9599999997941366
+  hidden position_35_0 1.2805090335856436e-11
+  hidden rotation_37 0 1 0 0.9599999995389906
+  hidden position_37_0 1.3722678549283224e-10
+  hidden rotation_38 0 1 0 0.9599999997941534
+  hidden position_38_0 1.2806533618089595e-11
+  hidden position_40_0 3.3345881614850717e-11
+  hidden rotation_41 0 -1 0 0.9599999999499802
+  hidden rotation_42 0 0.7071067811865476 0.7071067811865476 1.6593230851978133e-07
+  hidden position_42_0 -3.0788055838115724e-07
+  hidden rotation_43 -1 0 0 4.6838026182358703e-07
+  hidden position_43_0 5.702933967583738e-10
+  hidden position_44_0 5.270368246581354e-10
+  hidden position_45_0 -1.3180909640063125e-09
+  hidden position_46_0 -3.4604593857068267e-07
+  hidden rotation_47 -0.9999999999999999 0 0 3.462716948575456e-07
+  hidden translation_48 0.020000105819836193 -0.006999968530701839 -0.04094948449409521
+  hidden rotation_48 4.5228767022095426e-07 -1.836440999282329e-10 0.9999999999998977 -3.1415853069211885
+  hidden rotation_52 0 -0.7071067811865476 0.7071067811865476 1.7120130796843858e-07
+  hidden position_52_0 3.078830224901037e-07
+  hidden rotation_53 1 0 0 4.6838026182358703e-07
+  hidden position_53_0 6.209125042446571e-10
+  hidden position_54_0 5.798857214154488e-10
+  hidden position_55_0 -1.265630772761883e-09
+  hidden position_56_0 3.46048877129555e-07
+  hidden rotation_57 0.9999999999999999 0 0 3.462716948575456e-07
+  hidden translation_58 0.020000105870712284 0.006999968527063902 -0.04094948453482266
+  hidden rotation_58 4.523389961340919e-07 1.7863599488641733e-10 0.9999999999998977 -3.1415853074356983
+  translation -0.0007030816155380567 0.3330427605774736 -0.003580346594510413
+  rotation 0.9999947596212312 -0.0009880326249654264 -0.003082940415927742 -1.57079733992386
+  controller "my_NAO_controller"
+  controllerArgs "9559"
+}
